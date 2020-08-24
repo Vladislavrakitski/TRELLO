@@ -7,6 +7,16 @@
 		"start": "node src/server.js",
 		"dev": "nodemon src/server.js"
 	},
+	"keywords": [
+		"react",
+		"express",
+		"node",
+		"mysql"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Vladislavrakitski/TRELLO.git"
+	},
 	"author": "Vladislav Rakitski <rakitski457@gmail.com>",
 	"license": "ISC",
 	"devDependencies": {
