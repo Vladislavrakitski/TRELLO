@@ -6,7 +6,7 @@ module.exports = {
 		secret: process.env.JWT_SECRET,
 		expiresIn: process.env.JWT_STORAGE,
 	},
-	dbConfig: {
+	db: {
 		client: process.env.DATABASE_MS,
 		connection: {
 			host: process.env.DATABASE_HOST,
