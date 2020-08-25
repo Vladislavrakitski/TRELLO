@@ -10,7 +10,10 @@ module.exports = {
 	async getById(id) {
 		return tasksRepository.getById(id);
 	},
-	async getById(task) {
-		return tasksRepository.updateAllById(task);
+	async updateById(id, task) {
+		return tasksRepository.updateById(id, task);
+	},
+	async deleteById(id) {
+		return tasksRepository.deleteById(id);
 	},
 };
