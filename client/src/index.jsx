@@ -1,18 +1,19 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Provider } from 'react-redux';
+// import { Provider } from 'react-redux';
 
-// import App from './components/App';
+import './index.css';
+import App from './App';
 
 // import '@styles/index.scss';
-import store from '@redux/store';
+// import store from '@redux/store';
 
 render(
-	<Provider store={store}>
-		<Router>
-			<h1>Trello</h1>
-		</Router>
-	</Provider>,
+	// <Provider store={store}>
+	<Router>
+		<App />
+	</Router>,
+	//</Provider>,
 	document.getElementById('root')
 );

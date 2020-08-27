@@ -81,7 +81,7 @@ const plugins = () => {
 			template: 'src/public/index.html',
 			favicon: 'src/public/favicon.ico',
 			filename: 'index.html',
-			title: 'CHAT',
+			title: 'TRELLO',
 			hash: !isDev,
 			minify: {
 				collapseWhitespace: isProd,
