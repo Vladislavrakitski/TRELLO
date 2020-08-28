@@ -46,7 +46,7 @@ body {
 
 .item {
 	font-size: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	padding: 10px;
 	z-index: 1;
 	border: 20px solid var(--disabled-color);
@@ -55,10 +55,6 @@ body {
 .item-title {
 	font-weight: 600;
 	font-size: 16px;
-}
-
-.item-status {
-	text-align: right;
 }
 
 /* 

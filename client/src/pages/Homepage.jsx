@@ -10,9 +10,9 @@ const Homepage = () => {
 				return (
 					<div key={s.status} className={'col-wrapper'}>
 						<h2 className={'col-header'}>{s.status.toUpperCase()}</h2>
-						<DropWrapper>
-							<Item></Item>
-							<Item></Item>
+						<DropWrapper id={`wrap-${s.status}`}>
+							<Item id={`card-${s.status}1`} draggable='true' />
+							<Item id={`card-${s.status}2`} draggable='true' />
 						</DropWrapper>
 					</div>
 				);
